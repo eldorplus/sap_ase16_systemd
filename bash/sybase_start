@@ -3,7 +3,7 @@
 # vim: set ts=4 sw=4 tw=0 et :
 #----------------------------------------------------------------------
 #File     : @(#) sybase_start
-#Author   : Roland van Veen
+#Author   : Patrick LUZOLO SIASIA
 #Purpose  : Startup script ASE and REP instance on a single box.
 #
 #Usage    : sybase_start [start|stop|restart|status]

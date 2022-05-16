@@ -1,3 +1,4 @@
 #Vim undo and backup files
 *.un~
 *.bak
+.idea

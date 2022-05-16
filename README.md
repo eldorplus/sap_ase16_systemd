@@ -16,8 +16,8 @@ MIT
 |   File              |      Description           |
 |----------------|-------|
 |sybase.service |Service unit file.|
-|sybase_start| Shell script contains the main logic for starting and stopping.|
-|logrotate.d/sapase16|Rotate logs example for an ASE instance | 
+|sybase| Shell script contains the main logic for starting and stopping.|
+|logrotate.d/sybase|Rotate logs example for an ASE instance | 
 |README	| This file|
 
 
@@ -25,7 +25,7 @@ MIT
 
 |  Dir             |      Description           |
 |------------------|----------------------------|
-|/opt/sybase/sybase_start_PID.d/ |PID file directory|
+|/sap/cfg/ASE-16_0/install/CFRSV602TSGAPP4_PID.d/ |PID file directory|
 
 
 
@@ -51,7 +51,7 @@ MIT
 
 1. Adjust scripts to your needs, see also [Configuration](#Configuration) 
 1. Copy the unit script to /etc/systemd/system/  (With permissions: -rw-r--r--.).
-1. Copy the sybase_start script to /opt/sybase path is referred in the unit file).
+1. Copy the sybase script to /home/sybase/.bin/ path is referred in the unit file).
 1. Make script executable  for login sybase.
 1. sudo systemctl daemon-reload
 1. Optionall: The logrotate file goes into /etc/logrotate.d (Centos/Redhat), verify path to log file!
