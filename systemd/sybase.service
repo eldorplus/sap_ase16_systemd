@@ -13,7 +13,7 @@ ExecStop=/home/sybase/.bin/sybase stop
 #PIDFile=/opt/sybase/sybase_start_PID.d/sybase.pid
 WorkingDirectory=/sap/cfg/ASE-16_0/install
 TimeoutSec=300
-Restart=no
+Restart=always
 
 #Alternative settings
 #TimeoutSec=infinity
